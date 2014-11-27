@@ -1,0 +1,20 @@
+main{
+  string s1 = "abra";
+  string s2 = "abra";
+  string s3 = "cadabra";
+  string s4 = "abracadabra";
+  if (s1 == s2){
+    write "1 strings iguals";
+  }
+  if (s1 == "abra"){
+    write "2 strings iguals";
+  }
+  if (s1+s3 == "abracadabra")
+  {
+    write "3 strings iguals";
+  }
+  if (s1+s3 == s4)
+  {
+    write "4 strings iguals";
+  }
+}

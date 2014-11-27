@@ -1,0 +1,10 @@
+main {
+  int a;
+  a = f(2, a+1);
+  write a;
+}
+
+function f(int a,string b) return int {
+  int c = 44;
+  return a+b;
+}

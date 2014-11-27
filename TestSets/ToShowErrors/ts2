@@ -1,0 +1,5 @@
+main{
+string s1="abra";
+int x=2;
+s1=s1+x;
+}

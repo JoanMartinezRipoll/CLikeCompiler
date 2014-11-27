@@ -1,0 +1,22 @@
+main {
+  int a = 5;
+  write fact(a+1);
+  write a;
+}
+
+function q() return int{
+  return 34;
+}
+
+function fact(int n) return int{
+  int f;
+  f = 1;
+  if (n > 1) {
+     f = n * fact(n-1);
+  }
+  int a = 3;
+  return f;
+}
+
+
+

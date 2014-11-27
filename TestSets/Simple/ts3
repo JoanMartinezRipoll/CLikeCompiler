@@ -1,0 +1,16 @@
+main{
+int x = 1;
+int y = --5 * x;
+x=f(x,y);
+write x;
+}
+
+function f(int a,int b) return int {
+   if (a > b) {
+      return 2;
+      write 5;
+     }
+   write 7;
+   return 23;
+}
+

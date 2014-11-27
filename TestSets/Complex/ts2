@@ -1,0 +1,12 @@
+main{
+  int x;
+  x = 3;
+  int y= (5+2)*3;
+  write x;
+  write y;
+  string s1;
+  s1 = "hola";
+  string s2 = "adeu";
+  write s1;
+  write s2;
+}

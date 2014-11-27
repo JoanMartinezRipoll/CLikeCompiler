@@ -1,0 +1,17 @@
+main {
+  int a = 1;
+  int c = p(3,4);
+  write a;
+}
+
+function p(int k,int b) return int {
+  int a = 2222;
+  int i= f(2,1);
+  return 3;
+}
+
+function f(int k,int b) return int {
+    write a;
+    a = 500;
+    return 4;
+ }

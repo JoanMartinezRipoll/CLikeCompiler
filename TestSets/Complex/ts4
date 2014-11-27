@@ -1,0 +1,8 @@
+main {
+  string a= "a";
+  while (a!="aaaaaa"){
+  a = a + "a";
+  }
+ write a;
+}
+

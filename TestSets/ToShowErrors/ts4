@@ -1,0 +1,4 @@
+main{
+string s1="adeu";
+s1=s1*s1;
+}

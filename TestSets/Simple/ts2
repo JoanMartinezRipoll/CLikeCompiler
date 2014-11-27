@@ -1,0 +1,22 @@
+main {
+  int a = 5;
+  write 2*a;
+  if (a < 8) {
+    write 23-a;
+  } else {
+    write 23+a;
+  }
+  int c = 3;
+  while (c > 0) {
+    write c;
+    c = c - 1;
+  }
+  int b = f(2, a+1);
+  write b+c;
+}
+
+function f(int a,int b) return int {
+  int c = 44;
+  return a+b;
+}
+

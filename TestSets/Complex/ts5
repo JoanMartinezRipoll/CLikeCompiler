@@ -1,0 +1,9 @@
+main {
+  string a= "abra";
+  string b = "cada";
+  write f(a , b+"bra");
+}
+
+function f(string a,string b) return string {
+   return a+b;
+}

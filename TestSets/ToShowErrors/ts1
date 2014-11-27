@@ -1,0 +1,4 @@
+main{
+string s1;
+s1=3;
+}

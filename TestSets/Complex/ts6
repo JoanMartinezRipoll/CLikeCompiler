@@ -1,0 +1,13 @@
+main {
+  int c = p(3,4);
+  write c;
+}
+
+function p(int a,int b) return int {
+  int c= f(2,1);
+  return a-b+c;
+}
+
+function f(int a,int b) return int {
+  return a+b;
+}
