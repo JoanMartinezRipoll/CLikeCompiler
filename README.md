@@ -6,10 +6,10 @@ The compiler performs both lexical and semantic analysis. Semantic analysis incl
 * Several parameters can be declared, but parameters with the same name must belong to different scopes (main or a given method).
 * The previous applies too for method declarations. 
 * Number of arguments and their type is checked when calling a method.
-* Method call return value type must be equal to the one provided at the method declaration.
-* Operations and assignations are only allowed between same types
-* Checks weather the operation is available for a given type
-* More...
+* Method call return value type must be equal to the one written at the method declaration.
+* Operations and assignations are only allowed between same types.
+* Checks weather the operation is available for a given type.
+* More...please check the language example files.
 
 The core files of this project are interpreter.cc and compiler.g
 
@@ -17,7 +17,7 @@ The core files of this project are interpreter.cc and compiler.g
 Language examples can be found at the TestSets folder. The sub-folder Errors includes code with semantical and lexical errors that will cause the compiler to display error messages.
 
 ## INSALL AND EXECUTION NOTES
-The compiler needs pccts to be installed
+The compiler needs pccts to be installed.
 
 `sudo apt-get install pccts`
 
@@ -25,9 +25,9 @@ To add the pccts libraries:
 
 `ln -s /usr/include/pccts/* /usr/local/include/`
 
-Run `make` to compile the compiler.
-Then, the compiler can be run:
+Run `make` to compile.
+Then, the compiler can be run, for example, to run the testcase `ts2`:
 
 `./compiler< TestSets/ts2`
 
-Run `make compilerclean` to clean
+Run `make compilerclean` to clean.
